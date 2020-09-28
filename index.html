@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<title>Evelyn Heylen</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<style>
+/* Header/Logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #08367f;
+  color: white;
+  font-size: 30px;
+}
+
+table { border:1px solid black; padding:10px; display:block; width:400px; }
+
+.table { border:1px solid black; padding:10px; width:400px; overflow:hidden; }
+.left { float:left; width:200px; }
+.right { float:right; width:200px;  }
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 15%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 85%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1100px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+</style>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button">Evelyn Heylen</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">Who am I?</a>
+      <a href="#publications" class="w3-bar-item w3-button">Publications</a>
+      <a href="#presentations" class="w3-bar-item w3-button">Invited talks</a>
+      <a href="#outreach" class="w3-bar-item w3-button">Science outreach</a>
+      <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+      <a href="#supervision" class="w3-bar-item w3-button">Teaching and Supervision</a>
+    </div>
+  </div>
+</div>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Evelyn Heylen</h3>
+<div class="row">
+  <div class="column side">
+<br>
+      <img src="images/Heylen_ Evelyn 4.jpg" width="170" height="200"> 
+  </div>
+  <div class="column middle">
+        <p>Evelyn Heylen is a researcher in the Control and Power research group of the Electrical and Electronic Engineering department of Imperial College London. Her current research focuses on investigating the potential of new data-science and machine learning techniques for the application in power systems.This research is applied in the Short-term System Inertia Forecast project in collaboration with National Grid ESO. 
+</p>
+<p>
+She joined Imperial in June 2019, after being a post-doctoral researcher at the University of Leuven, Belgium. Prior to this, she obtained the degrees of Master in Energy Engineering (magna cum laude) and Doctor in Electrical Engineering from the University of Leuven, Belgium, in resp. 2013 and 2018. Her PhD research in the field of power system reliability was funded by a PhD fellowship of the Research Foundation Flanders.
+</p>
+<p>
+Her research interests are physics-informed and data-driven decision support for grid operators in low-inertia power systems using and power system reliability from a technical and socio-economic perspective. After obtaining her PhD, she was a visiting researcher in the Control and Power Group of Imperial College London focusing on dynamic modelling of consumers' inconvenience associated with demand flexibility potentials. As a post-doctoral researcher at the University of Leuven, she worked on the development of optimization-based decision-support tools for transmission system operators. In this role, she was task leader in the European Horizon 2020 project EU Sysflex, coordinating a task with academic and industrial partners on the development of a software tool to apply in the dispatchers' training simulator of a European transmission system operator.
+</p>
+  </div>
+  </div>
+  
+
+    <!-- Publication Section -->
+  <div class="w3-container w3-padding-32" id="publications">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Publications</h3>
+
+<h4> Work in progress </h4>
+<h6>
+<p>
+Heylen E., Strbac G., Teng F., <a href="https://arxiv.org/abs/2008.12692" target="_blank">"Challenges and opportunities of inertia estimation and forecasting in low-inertia power system"</a>, (Submitted)
+</p>
+
+<p> 
+Buizza C., Quilodran Casas C., Nadler P., Mack J., Marrone S., Titus Z.,
+Le Cornec C., Heylen E., Dur T., Baca Ruiz L., Heaney C., Amador Diaz Lopez J., Arcucci R., "Data Learning: Integrating Data Assimilation with Machine Learning" (Submitted)
+</p>
+
+<p>
+Heylen E., Browell J., Teng F., "Probabilistic forecasting of transmission-system connected generators' inertia contribution", (In prep)
+</p>
+
+<p>
+Heylen E., Strbac G., Teng F., "Valuation of Probabilistic Inertia Forecasts using a Probabilistic Model for Optimal Inertia Management", (In prep)
+</p>
+
+</h6>
+
+<h4> Reviewed journals </h4>
+<h6>
+
+<p>
+Ovaere M., Heylen E., Proost S., Deconinck G., Van Hertem D., <a href="files\4_Ovaere2019_Detailed_VOLL.pdf" target="_blank">"How Detailed Value of Lost Load Data Impact Power System Reliability Decisions"</a>, Energy Policy, 132, 1064-1075, 2019
+</p>
+
+<p>
+Heylen E., Ovaere M., Proost S., Deconinck G., Van Hertem D., <a href="files\1_fairness_and_inequality.pdf" target="_blank">"Fairness and Inequality in Power System Reliability: Summarizing Indices."</a> Electric Power Systems Research, 168, 313-323, 2019.
+</p>
+
+<p>
+Heylen E., Ovaere M., Proost S., Deconinck G., Van Hertem D., <a href="files\2_a_multidimensional_analysis.pdf" target="_blank">"A Multi-Dimensional Analysis of Reliability Criteria: From Deterministic N-1 to a Probabilistic Approach."</a> Electric Power Systems Research, 167, 290-300, 2019.
+</p>
+
+<p>
+Heylen E., Deconinck G., Van Hertem D., <a href="files\3_review_and_classification.pdf" target="_blank">"Review and Classification of Reliability Indicators for Power Systems with a High Share of Renewable Energy Sources."</a> Renewable and Sustainable Energy Reviews, 97, 554-568, 2018
+</p>
+
+<p>
+Heylen E., Labeeuw W., Deconinck G., Van Hertem D. <a href="files\FrameworkComparing_EH_WL_GD_DVH.pdf" target="_blank">"Framework for Evaluating and Comparing Performance of Power System Reliability Criteria."</a> IEEE Transactions on Power Systems, 31 (6), 5153-5162, 2016
+</p>
+</h6>
+
+<h4>Book contribution </h4>
+<h6>
+Heylen E., De Boeck S., Ovaere M., Ergun H., Van Hertem D., "Steady state security." <a href="https://www.amazon.com/Dynamic-Vulnerability-Assessment-Intelligent-Control/dp/1119214955" target = "_blank"> Dynamic Vulnerability Assessment and Intelligent Control for Sustainable Power Systems </a>, Ed. Rueda J. L. , Gonzalez-Longatt F., John Wiley & Sons, 2018.
+</h6>
+
+<h4> Conference papers </h4>
+<h6>
+<p>
+Heylen E., Ovaere M., Van Hertem D., Deconinck G. <a href="files\IEEESMC2018_HeylenOvaereVanHertemDeconinck.pdf" target="_blank">"Fairness of Power System Load-Shedding Plans."</a> IEEE Systems, Man & Cybernetics, Miyazaki, Japan, 7-10 October 2018., 6 pages, IEEE
+</p>
+
+<p>
+Heylen E., Ovaere M., Deconinck G., Van Hertem D. <a href="files\inequality_PESGM_HeylenOvaereDeconinckVanHertem.pdf" target="_blank">"Fair Reliability Management: Comparing Deterministic and Probabilistic Short-Term Reliability Management."</a> Power and Energy Society General Meeting. Portland, Oregon, USA 5-10 August 2018, 5 pages, IEEE 
+</p>
+
+<p>
+Heylen E., Troffaes M., Kazemtabrizi B., Deconinck G., Van Hertem D. <a href="files\
+paperISGT_HeylenEtAl..pdf" target="_blank">"Qualitative Comparison of Techniques for Evaluating Performance of Short Term Power System Reliability Management."</a> International Conference on Innovative Smart Grid Technologies. Torino, 26-29 September 2017, 6 pages, IEEE
+</p>
+
+<p>
+Heylen, E., Deconinck, G., Van Hertem, D. (2016). <a href="files\impact_uncertainty_EH_GH_DVH.pdf" target="_blank">"Impact of Increased Uncertainty in Power Systems on Performance of Short Term Reliability Management."</a>, PMAPS. Beijing, 16 Oct. - 20 Oct. 2016 IEEE.
+</p>
+
+<p>
+Heylen, E., Deconinck, G., Van Hertem, D. (2016). <a href="files\ESREL_HeylenDeconinckVanHertem_2016.pdf" target="_blank">"Analysis Framework for Performance Evaluation of Reliability Management in Power Systems with Increased Uncertainty."</a>, ESREL. Glasgow, 26 Sep. - 29 Sep. 2016.
+</p>
+
+<p>
+Heylen, E., Deconinck, G., Van Hertem, D. (2015). <a href="files\Impact-of-VoLL-copyright.pdf" target="_blank">"Impact of Value of Lost Load on Performance of Reliability Criteria and Reliability Management."</a>, PowerTech. Eindhoven, 29 June - 2 July 2015 (art.nr. 462099) IEEE.
+</p>
+
+<p>
+Heylen, E., Jordens, R., Patteeuw, D., Helsen, L. (2014). <a href="files\ssb2014_submission_16.pdf" target="_blank">"The Potential of Air-Water Heat Pumps in a Belgian Residential Retrofit Context in relation to Future Electricity Prices."</a>, International Conference on System Simulation in Buildings. Liege, 10-12 December 2014 (art.nr. 16).
+</p>
+
+<p>
+Heylen, E., Van Hertem, D. (2014). <a href="files\YRS2014_EH_DVH.pdf" target="_blank"> "Importance and difficulties of comparing reliability criteria and the assessment of reliability."</a>, IEEE Young Researchers Symposium. Gent, 24-25 April 2014 (art.nr. 18) EESA.
+</p>
+</h6>
+
+  </div>
+
+    <!-- Invited talks -->
+  <div class="w3-container w3-padding-32" id="presentations">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Invited talks</h3>
+
+<h6>
+
+<p> <b>2020:</b> <ul>
+<li>Seminar University of Strathclyde, Online [Invited by Dr. Jethro Browell]</li>
+<!--<li>Seminar DataLearning Group, Imperial College London, UK [Invited by Dr. Rossella Arcucci]</li> -->
+</ul>
+</p>
+
+<p> <b>2019:</b> <ul>
+<li>Seminar University of Essex, Essex, UK [Invited by Dr. Fanlin Meng]</li>
+<li>ESAT Clustersymposium, Geel, Belgium [Invited by Dr. Bert Herteleer]</li> 
+<li>11th seminar for Next Generation of Researchers in Power Systems, Copenhagen, Denmark [Nominated by Prof. Dirk Van Hertem]</li>
+</ul>
+</p>
+
+<p> <b>2018:</b> <ul>
+<li>Symposium on Stability Assessment and Intelligent Control for Sustainable Electrical Power Systems, TU Delft, The Netherlands [Invited by Prof. dr. Jose Rueda Torres]</li></ul></p>
+
+<p> <b>2016:</b> <ul>
+<li>Seminar Edinburgh University, Edinburgh, UK [Invited by Prof. Chris Dent] </li></ul></p>
+
+<p> <b>2015:</b> <ul>
+<li>Heat pump symposium, Leuven, Belgium [Invited by Prof. Maarten Sourbron] </li></ul></p>
+
+</h6>
+
+  </div>
+
+    <!-- Science outreach Section -->
+  <div class="w3-container w3-padding-32" id="outreach">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Science outreach</h3>
+<h6>
+   <p>
+Heylen, E., Van Hertem, D., (2019) <a href="https://www.energyville.be/pers/opinie-laat-de-elektriciteit-maar-stromen" target="_blank">Laat de elektriciteit maar stromen</a>, De Standaard, 9 January 2019 [in Dutch]
+</p>
+
+<p>
+Heylen, E. (2018) <a href="https://www.energyville.be/en/news-events/blog-how-can-electricity-shortages-be-addressed-fairer-way" target="_blank">How can electricity shortages be addressed in a fairer way? </a>, KU Leuven blogt
+</p>
+
+
+<p>
+Heylen, E., Van Hertem, D., Belmans, R. (2018) <a href="https://www.energyville.be/en/press/fact-check-belgian-energy-provision-electricity-winter-2018-2019" target="_blank"> Fact check: The Belgian energy provision of electricity in the winter of 2018-2019 </a>
+</p>
+</h6>
+
+<h5> Articles in popular press and technical journals based on science outreach </h5>
+<h6>
+<p>
+Huysmans L. (2018) <a href="https://trends.knack.be/economie/beleid/hoe-belgie-evolueerde-van-overcapaciteit-tot-stroomtekort/article-longread-1377715.html?cookie_check=1594778944" target="_blank"> Hoe Belgi&euml; evolueerde van overcapaciteit naar stroomtekort</a>, Trends,  Based on: <i>Fact check: The Belgian energy provision of electricity in the winter of 2018-2019</i>
+</p>
+
+<p>
+Viane P. (2018) <a href="files\elektricien_final.pdf" target="_blank"> Gaat het licht straks daadwerkelijk uit: De diverse factoren in de weegschaal</a>, Elektricien - Vakblad voor de elektro-installateur, 2018-06, Nov. 2018, Based on: <i>Fact check: The Belgian energy provision of electricity in the winter of 2018-2019</i>
+</p>
+</h6>
+
+  </div>
+
+    <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
+<h6>
+<p>
+<a href="https://www.smarternetworks.org/project/nia_ngso0020" target="_blank">Short-term system inertia forecast</a>
+with National Grid (Transmission system operator United Kingdom)
+</p>
+
+<p>
+<a href="http://eu-sysflex.com/" target="_blank">H2020 EU Sysflex</a> 
+Task leader of T4.1: "Integration of System Services from new technologies into System Operator scheduling and decision support tools". Collaborative effort with EDF (France), PSE (Transmission system operator Poland) and NCNR (Poland)
+
+</p>
+
+<p>
+<a href="https://www.sintef.no/projectweb/garpur" target="_blank">FP7 GARPUR</a> on the development of a Generally Accepted Reliability Principle with Uncertainty modelling and through probabilistic Risk assessment. Collaborative effort with amongst others Sintef (Norway) Statnett (Transmission system operator Norway) and RTE (Transmission system operator France)
+</p>
+</h6>
+
+  </div>
+
+    <!-- Teaching and Supervision Section -->
+  <div class="w3-container w3-padding-32" id="supervision">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Teaching and Supervision</h3>
+<h4> Teaching </h4>
+<p>
+'Convex relaxations in optimization' in M.Sc course on Topics on Control, Imperial College London, UK
+</p>
+
+<h4> Supervision </h4>
+<h6>
+<p>
+Co-supervisor PhD Candidate Imperial College London: <a href="https://www.linkedin.com/in/jemima-graham-961366134/" target="_blank">Jemima Graham</a>
+</p>
+
+<p>
+Supervisor MSc students Imperial College London: Zhidi Huang, Ying Xu
+</p>
+
+<p>
+Daily supervisor MSc student KU Leuven: Margarita Dosi
+</p>
+</h6>
+
+  </div>
+
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Copyright 2020 Evelyn Heylen - All Rights Reserved. </p>
+</footer>
+
+</body>
+</html>
